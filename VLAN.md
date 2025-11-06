@@ -35,7 +35,7 @@ switchport trunk allowed vlan 2,3 - указываем трафик каких v
 wr mem
 ```
 
-Также, для примера вывод команды из работы выше по access потам ```show vlan```
+Также, для примера вывод команды из работы выше по access портам ```show vlan```
 
 <img width="557" height="134" alt="image" src="https://github.com/user-attachments/assets/ef6358d5-bab3-42b2-9be3-54c804180379" />
 
