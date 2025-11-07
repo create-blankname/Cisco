@@ -7,7 +7,18 @@
 ```
 conf t
 ip dhcp pool computers - создать пул DHCP с названием computers
-network 192.168.140.0 255.255.255.0 - задать IP адреса и маску сети  
-
-
+network 192.168.140.0 255.255.255.0 - задать диапазон IP адреса и маску сети  
+default-router 192.168.140.1 - задать шлюз по умолчанию
+dns-server 1.1.1.1 - в данном случае произвольный
+ex
+ip dhcp excluded-address 192.168.140.1 - исключить данный адрес из пула на раздачу
+wr mem
 ```
+
+
+Также, можно проверить применен ли параметр
+```
+show ip dhcp pool computers
+```
+
+<img width="921" height="683" alt="image" src="https://github.com/user-attachments/assets/88180a8e-9d4c-48a9-85b1-88d49c9415db" />
