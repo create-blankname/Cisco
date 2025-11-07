@@ -41,7 +41,7 @@ wr mem
 
 <img width="557" height="134" alt="image" src="https://github.com/user-attachments/assets/ef6358d5-bab3-42b2-9be3-54c804180379" />
 
-Источники:
+### Источники:
 
 [Основы компьютерных сетей. Тема №6. Понятие VLAN, Trunk и протоколы VTP и DTP](https://habr.com/ru/articles/319080/)
 
